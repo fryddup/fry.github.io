@@ -6,19 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives | fry的博客</title>
+  <title>图片上传 | fry的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="浙江工商大学计算机硕士">
+  <meta name="description" content="title: MyBlogdate: 2019-09-05 22:32:37 tags: First Blog博客搭建1.安装环境 NodeJS + hexo + git 2.gitbash  -&amp;gt;   hexo init -&amp;gt;hexo s -&amp;gt; hexo n “MyBlog”  简介：  hexo init：初始化 hexo s ： 启动博客，用于测试 hexo n “MyB">
 <meta name="keywords" content="python机器学习，Java后端开发">
-<meta property="og:type" content="website">
-<meta property="og:title" content="fry的博客">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="图片上传">
+<meta property="og:url" content="http://yoursite.com/2019/09/06/图片上传/index.html">
 <meta property="og:site_name" content="fry的博客">
-<meta property="og:description" content="浙江工商大学计算机硕士">
+<meta property="og:description" content="title: MyBlogdate: 2019-09-05 22:32:37 tags: First Blog博客搭建1.安装环境 NodeJS + hexo + git 2.gitbash  -&amp;gt;   hexo init -&amp;gt;hexo s -&amp;gt; hexo n “MyBlog”  简介：  hexo init：初始化 hexo s ： 启动博客，用于测试 hexo n “MyB">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-09-06T00:14:20.592Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="fry的博客">
-<meta name="twitter:description" content="浙江工商大学计算机硕士">
+<meta name="twitter:title" content="图片上传">
+<meta name="twitter:description" content="title: MyBlogdate: 2019-09-05 22:32:37 tags: First Blog博客搭建1.安装环境 NodeJS + hexo + git 2.gitbash  -&amp;gt;   hexo init -&amp;gt;hexo s -&amp;gt; hexo n “MyBlog”  简介：  hexo init：初始化 hexo s ： 启动博客，用于测试 hexo n “MyB">
   
     <link rel="alternative" href="/atom.xml" title="fry的博客" type="application/atom+xml">
   
@@ -158,87 +159,187 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
+            <article id="post-图片上传" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
   
+    <h1 class="article-title" itemprop="name">
+      图片上传
+    </h1>
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/09/06/图片上传/" class="archive-article-date">
+
+        
+        <a href="/2019/09/06/图片上传/" class="archive-article-date">
   	<time datetime="2019-09-06T00:12:42.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-06</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/09/06/图片上传/">图片上传</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <hr>
+<p>title: MyBlog<br>date: 2019-09-05 22:32:37</p>
+<h2 id="tags-First-Blog"><a href="#tags-First-Blog" class="headerlink" title="tags: First Blog"></a>tags: First Blog</h2><h2 id="博客搭建"><a href="#博客搭建" class="headerlink" title="博客搭建"></a>博客搭建</h2><p>1.安装环境 NodeJS + hexo + git</p>
+<p>2.gitbash  -&gt;   hexo init -&gt;hexo s -&gt; hexo n “MyBlog”</p>
+<hr>
+<p>简介：</p>
+<ul>
+<li>hexo init：初始化</li>
+<li>hexo s ： 启动博客，用于测试</li>
+<li>hexo n “MyBlog”：新建博客，名称为“MyBlog”</li>
+<li>hexo clean：清理数据库</li>
+<li>hexo g：生成博客</li>
+</ul>
+<hr>
+<p>3.部署到github</p>
+<ul>
+<li><p>新建github仓库</p>
+</li>
+<li><p>修改配置文件  _config.yml：</p>
+<p>  deploy:<br>  type: git<br>  repo: <a href="https://github.com/fryddup/fryddup.github.io.git" target="_blank" rel="noopener">https://github.com/fryddup/fryddup.github.io.git</a><br>  branch: master</p>
+</li>
+<li><p>hexo -d 推到远程服务器</p>
+</li>
+</ul>
+<p>此时可以通过 <a href="https://fryddup.github.io/" target="_blank" rel="noopener">https://fryddup.github.io/</a> 来访问我的博客</p>
+<hr>
+<p>4.修改博客主题</p>
+<ul>
+<li>git clone <a href="https://github.com/litten/hexo-theme-yilia.git" target="_blank" rel="noopener">https://github.com/litten/hexo-theme-yilia.git</a> themes/yilia</li>
+<li>修改配置文件： tmemes：yilia</li>
+</ul>
+<hr>
+<h3 id="C-Users-FRY-Pictures-壁纸-女子-水下-海底-海母-唯美艺术插画-4k动漫壁纸-彼岸图网-jpg"><a href="#C-Users-FRY-Pictures-壁纸-女子-水下-海底-海母-唯美艺术插画-4k动漫壁纸-彼岸图网-jpg" class="headerlink" title="![](C:\Users\FRY\Pictures\壁纸\女子 水下 海底 海母 唯美艺术插画 4k动漫壁纸_彼岸图网.jpg)"></a>![](C:\Users\FRY\Pictures\壁纸\女子 水下 海底 海母 唯美艺术插画 4k动漫壁纸_彼岸图网.jpg)</h3>
+      
 
-        <div class="article-info info-on-right">
-          
-          
-
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/09/06/图片上传/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/09/05/MyBlog-Hexo快速搭建/" class="archive-article-date">
-  	<time datetime="2019-09-05T14:32:37.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-05</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2019/09/05/MyBlog-Hexo快速搭建/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">MyBlog</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/09/05/MyBlog-Hexo快速搭建/">MyBlog</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">First Blog</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
+
+  
 
 
           </div>
@@ -261,8 +362,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
